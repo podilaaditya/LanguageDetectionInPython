@@ -1,0 +1,12 @@
+1. Introduction 
+We would need to detect the languae of the given sentence
+
+Approach
+1. Tokenize the strings , strore the words and size of the words extracted 
+2. Arrage the tokenized string into a data structure [fr[word,meeing]]
+   a. HEre the fr is the language we want to detect and this data structre would contain the meeing of the word. 
+      these words are extracted fromt the string 
+   b. now for those words we do not have the meanign we would move it to another structure fr_fail[word].
+3. we would check the length of the both structres 
+   a. We are seeing that the words with out meeing are more , then the language is mostly not french string 
+   b. We are seeing that the words with meanign are more , then the language is mostly french.
