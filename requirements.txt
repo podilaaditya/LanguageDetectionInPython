@@ -1,2 +1,3 @@
 Install following using either pip or pip3 
 pip3 install dict-fr-AU-DELA
+pip install dict-fr-Wordscapes
